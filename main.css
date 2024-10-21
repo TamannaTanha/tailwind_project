@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+.btn-red{
+    @apply bg-lime-400 rounded-full focus:ring-2 focus:ring-red-500 hover:bg-red-600 px-5 py-2 mt-20 hover:text-white hover:transition hover:duration-300 hover:ease-linear
+}
+
+
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+.darkmode{
+    background-color: #000;
+}
+.lightmode{
+    background-color: red;
+}
